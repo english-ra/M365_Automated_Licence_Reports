@@ -1,6 +1,8 @@
 Import-Module Microsoft.Graph.Users.Actions
 
 
+$clientName = ""
+
 $clientID = ""
 $tenantId = ""
 $certificateName = ""
@@ -63,6 +65,8 @@ $customUsers | select UserPrincipalName, GivenName, Surname, DisplayName, JobTit
 $base64string = [Convert]::ToBase64String([IO.File]::ReadAllBytes($reportExportPath))
 
 # Send the email
+
+$date = Get-Date -Format "dd/MM/yyyy"
 $params = @{
     Message = @{
         Subject = "M365 Licence Report"
@@ -94,7 +98,7 @@ $params = @{
         Attachments = @(
 			@{
 				"@odata.type" = "#microsoft.graph.fileAttachment"
-				Name = "usersReport.csv"
+				Name = "M365-Licences_" + $clientName + "_" + $date + ".csv"
 				ContentType = "text/plain"
 				ContentBytes = $base64string
 			}

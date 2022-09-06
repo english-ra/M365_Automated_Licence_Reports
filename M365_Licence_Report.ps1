@@ -1,11 +1,13 @@
 Import-Module Microsoft.Graph.Users.Actions
- 
+
+
 $clientID = ""
 $tenantId = ""
 $certificateName = ""
 
 $licenceDetailsCSVPath = ""
 $reportExportPath = ""
+
  
 # Authenticate with Graph API
 Connect-MgGraph -ClientID $clientID -TenantId $tenantId -CertificateName $certificateName
@@ -14,7 +16,7 @@ Connect-MgGraph -ClientID $clientID -TenantId $tenantId -CertificateName $certif
 $plansCSV = Import-Csv -Path $licenceDetailsCSVPath
  
 # Get the users
-$users = Get-MgUser -Filter 'assignedLicenses/$count ne 0' -ConsistencyLevel eventual -CountVariable licensedUserCount -All -Select UserPrincipalName,DisplayName,AssignedLicenses,JobTitle,Department
+$users = Get-MgUser -Filter 'assignedLicenses/$count ne 0' -ConsistencyLevel eventual -CountVariable licensedUserCount -All -Select UserPrincipalName, GivenName, Surname, DisplayName, JobTitle, Department, AssignedLicenses
  
 Write-Output("The total amount of licenced users is " + $licensedUserCount)
 
@@ -37,11 +39,13 @@ foreach ($user in $users) {
  
     # Create a custom user object
     $customUser = @{
+        GivenName = $user.GivenName
+        Surname = $user.Surname
         DisplayName = $user.DisplayName
-        UPN = $user.UserPrincipalName
+        UserPrincipalName = $user.UserPrincipalName
         JobTitle = $user.JobTitle
         Department = $user.Department
-        Licences = $licenceNames
+        AssignedLicenses = $licenceNames
     }
     $customUserObject = new-object psobject -Property $customUser
  
@@ -50,10 +54,10 @@ foreach ($user in $users) {
 }
  
 # Display a table of all the licenced users
-$customUsers | Format-Table -Property UPN,DisplayName,JobTitle,Department,Licences
+$customUsers | Format-Table -Property UserPrincipalName, GivenName, Surname, DisplayName, JobTitle, Department, AssignedLicenses
 
 # Create a csv of all the licenced users
-$customUsers | select DisplayName, UPN, JobTitle, Department, licences | Export-Csv -Path $reportExportPath -NoTypeInformation
+$customUsers | select UserPrincipalName, GivenName, Surname, DisplayName, JobTitle, Department, AssignedLicenses | Export-Csv -Path $reportExportPath -NoTypeInformation
 
 # Convert the csv file to base64
 $base64string = [Convert]::ToBase64String([IO.File]::ReadAllBytes($reportExportPath))
@@ -74,6 +78,13 @@ $params = @{
             }
         )
         CcRecipients = @(
+            @{
+                EmailAddress = @{
+                    Address = ""
+                }
+            }
+        )
+        BccRecipients = @(
             @{
                 EmailAddress = @{
                     Address = ""

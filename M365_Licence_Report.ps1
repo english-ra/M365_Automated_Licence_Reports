@@ -59,7 +59,7 @@ foreach ($user in $users) {
 $customUsers | Format-Table -Property UserPrincipalName, GivenName, Surname, DisplayName, JobTitle, Department, AssignedLicenses
 
 # Create a csv of all the licenced users
-$customUsers | select UserPrincipalName, GivenName, Surname, DisplayName, JobTitle, Department, AssignedLicenses | Export-Csv -Path $reportExportPath -NoTypeInformation
+$customUsers | Sort-Object -Property Surname | select UserPrincipalName, GivenName, Surname, DisplayName, JobTitle, Department, AssignedLicenses | Export-Csv -Path $reportExportPath -NoTypeInformation
 
 # Convert the csv file to base64
 $base64string = [Convert]::ToBase64String([IO.File]::ReadAllBytes($reportExportPath))

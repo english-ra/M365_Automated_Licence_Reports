@@ -40,6 +40,7 @@ Dynamics 365 - Additional Production Instance (Qualified Offer),CRMINSTANCE,9d77
 Dynamics 365 - Additional Non-Production Instance (Qualified Offer),CRMTESTINSTANCE,e06abcc2-7ec5-4a79-b08b-d9c282376f72,EXCHANGE_S_FOUNDATION,113feb6c-3fe4-4440-bddc-54d774bf0318,Exchange Foundation
 Dynamics 365 - Additional Non-Production Instance (Qualified Offer),CRMTESTINSTANCE,e06abcc2-7ec5-4a79-b08b-d9c282376f72,CRMTESTINSTANCE,a98b7619-66c7-4885-bdfc-1d9c8c3d279f,Microsoft Dynamics CRM Online Additional Test Instance
 Dynamics 365 AI for Market Insights (Preview),SOCIAL_ENGAGEMENT_APP_USER ,c6df1e30-1c9f-427f-907c-3d913474a1c7 ,SOCIAL_ENGAGEMENT_APP_USER ,339f4def-5ad8-4430-8d12-da5fd4c769a7,Dynamics 365 AI for Market Insights - Free
+MICROSOFT 365 BUSINESS VOICE,REECE ADDED, e5a17adf-8f0d-4b57-bc14-d331235f9307,REECE ADDED,REECE ADDED,REECE ADDED
 Dynamics 365 AI for Market Insights (Preview),SOCIAL_ENGAGEMENT_APP_USER ,c6df1e30-1c9f-427f-907c-3d913474a1c7 ,EXCHANGE_S_FOUNDATION ,113feb6c-3fe4-4440-bddc-54d774bf0318,Exchange Foundation 
 Dynamics 365 Asset Management Addl Assets,DYN365_ASSETMANAGEMENT,673afb9d-d85b-40c2-914e-7bf46cd5cd75,D365_AssetforSCM,90467813-5b40-40d4-835c-abd48009b1d9,Asset Maintenance Add-in
 Dynamics 365 Asset Management Addl Assets,DYN365_ASSETMANAGEMENT,673afb9d-d85b-40c2-914e-7bf46cd5cd75,EXCHANGE_S_FOUNDATION,113feb6c-3fe4-4440-bddc-54d774bf0318,Exchange Foundation
@@ -343,7 +344,7 @@ Microsoft 365 A3 for Faculty,M365EDU_A3_FACULTY,4b590615-0888-425a-a965-b3bf7789
 Microsoft 365 A3 for Faculty,M365EDU_A3_FACULTY,4b590615-0888-425a-a965-b3bf7789848d,EducationAnalyticsP1,a9b86446-fa4e-498f-a92a-41b447e03337,Education Analytics
 Microsoft 365 A3 for Faculty,M365EDU_A3_FACULTY,4b590615-0888-425a-a965-b3bf7789848d,EXCHANGE_S_ENTERPRISE,efb87545-963c-4e0d-99df-69c6916d9eb0,Exchange Online (Plan 2)
 Microsoft 365 A3 for Faculty,M365EDU_A3_FACULTY,4b590615-0888-425a-a965-b3bf7789848d,INFORMATION_BARRIERS,c4801e8a-cb58-4c35-aca6-f2dcc106f287,Information Barriers
-Microsoft 365 A3 for Faculty,M365EDU_A3_FACULTY,4b590615-0888-425a-a965-b3bf7789848d,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics – Standard
+Microsoft 365 A3 for Faculty,M365EDU_A3_FACULTY,4b590615-0888-425a-a965-b3bf7789848d,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics ? Standard
 Microsoft 365 A3 for Faculty,M365EDU_A3_FACULTY,4b590615-0888-425a-a965-b3bf7789848d,MIP_S_CLP1,5136a095-5cf0-4aff-bec3-e84448b38ea5,Information Protection for Office 365 - Standard
 Microsoft 365 A3 for Faculty,M365EDU_A3_FACULTY,4b590615-0888-425a-a965-b3bf7789848d,MYANALYTICS_P2,33c4f319-9bdd-48d6-9c4d-410b750a4a5a,Insights by MyAnalytics
 Microsoft 365 A3 for Faculty,M365EDU_A3_FACULTY,4b590615-0888-425a-a965-b3bf7789848d,OFFICESUBSCRIPTION,43de0ff5-c92c-492b-9116-175376d08c38,Microsoft 365 Apps for enterprise
@@ -389,7 +390,7 @@ MICROSOFT 365 A3 FOR STUDENTS,M365EDU_A3_STUDENT,7cfd9a2b-e110-4c39-bf20-c6a3f36
 MICROSOFT 365 A3 FOR STUDENTS,M365EDU_A3_STUDENT,7cfd9a2b-e110-4c39-bf20-c6a3f36a3121,EducationAnalyticsP1,a9b86446-fa4e-498f-a92a-41b447e03337,Education Analytics
 MICROSOFT 365 A3 FOR STUDENTS,M365EDU_A3_STUDENT,7cfd9a2b-e110-4c39-bf20-c6a3f36a3121,EXCHANGE_S_ENTERPRISE,efb87545-963c-4e0d-99df-69c6916d9eb0,Exchange Online (Plan 2)
 MICROSOFT 365 A3 FOR STUDENTS,M365EDU_A3_STUDENT,7cfd9a2b-e110-4c39-bf20-c6a3f36a3121,INFORMATION_BARRIERS,c4801e8a-cb58-4c35-aca6-f2dcc106f287,Information Barriers
-MICROSOFT 365 A3 FOR STUDENTS,M365EDU_A3_STUDENT,7cfd9a2b-e110-4c39-bf20-c6a3f36a3121,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics – Standard
+MICROSOFT 365 A3 FOR STUDENTS,M365EDU_A3_STUDENT,7cfd9a2b-e110-4c39-bf20-c6a3f36a3121,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics ? Standard
 MICROSOFT 365 A3 FOR STUDENTS,M365EDU_A3_STUDENT,7cfd9a2b-e110-4c39-bf20-c6a3f36a3121,MIP_S_CLP1,5136a095-5cf0-4aff-bec3-e84448b38ea5,Information Protection for Office 365 - Standard
 MICROSOFT 365 A3 FOR STUDENTS,M365EDU_A3_STUDENT,7cfd9a2b-e110-4c39-bf20-c6a3f36a3121,MYANALYTICS_P2,33c4f319-9bdd-48d6-9c4d-410b750a4a5a,Insights by MyAnalytics
 MICROSOFT 365 A3 FOR STUDENTS,M365EDU_A3_STUDENT,7cfd9a2b-e110-4c39-bf20-c6a3f36a3121,OFFICESUBSCRIPTION,43de0ff5-c92c-492b-9116-175376d08c38,Microsoft 365 Apps for enterprise
@@ -468,7 +469,7 @@ Microsoft 365 A3 - Unattended License for students use benefit,M365EDU_A3_STUUSE
 Microsoft 365 A3 - Unattended License for students use benefit,M365EDU_A3_STUUSEBNFT_RPA1,1aa94593-ca12-4254-a738-81a5972958e8,EducationAnalyticsP1,a9b86446-fa4e-498f-a92a-41b447e03337,Education Analytics
 Microsoft 365 A3 - Unattended License for students use benefit,M365EDU_A3_STUUSEBNFT_RPA1,1aa94593-ca12-4254-a738-81a5972958e8,EXCHANGE_S_ENTERPRISE,efb87545-963c-4e0d-99df-69c6916d9eb0,Exchange Online (Plan 2)
 Microsoft 365 A3 - Unattended License for students use benefit,M365EDU_A3_STUUSEBNFT_RPA1,1aa94593-ca12-4254-a738-81a5972958e8,INFORMATION_BARRIERS,c4801e8a-cb58-4c35-aca6-f2dcc106f287,Information Barriers
-Microsoft 365 A3 - Unattended License for students use benefit,M365EDU_A3_STUUSEBNFT_RPA1,1aa94593-ca12-4254-a738-81a5972958e8,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics – Standard
+Microsoft 365 A3 - Unattended License for students use benefit,M365EDU_A3_STUUSEBNFT_RPA1,1aa94593-ca12-4254-a738-81a5972958e8,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics ? Standard
 Microsoft 365 A3 - Unattended License for students use benefit,M365EDU_A3_STUUSEBNFT_RPA1,1aa94593-ca12-4254-a738-81a5972958e8,MIP_S_CLP1,5136a095-5cf0-4aff-bec3-e84448b38ea5,Information Protection for Office 365 - Standard
 Microsoft 365 A3 - Unattended License for students use benefit,M365EDU_A3_STUUSEBNFT_RPA1,1aa94593-ca12-4254-a738-81a5972958e8,OFFICESUBSCRIPTION_unattended,8d77e2d9-9e28-4450-8431-0def64078fc5,Microsoft 365 Apps for Enterprise (Unattended)
 Microsoft 365 A3 - Unattended License for students use benefit,M365EDU_A3_STUUSEBNFT_RPA1,1aa94593-ca12-4254-a738-81a5972958e8,OFFICE_FORMS_PLAN_2,9b5de886-f035-4ff2-b3d8-c9127bea3620,Microsoft Forms (Plan 2)
@@ -510,7 +511,7 @@ Microsoft 365 A5 for Faculty,M365EDU_A5_FACULTY,e97c048c-37a4-45fb-ab50-922fbf07
 Microsoft 365 A5 for Faculty,M365EDU_A5_FACULTY,e97c048c-37a4-45fb-ab50-922fbf07a370,EXCHANGE_S_ENTERPRISE,efb87545-963c-4e0d-99df-69c6916d9eb0,Exchange Online (Plan 2)
 Microsoft 365 A5 for Faculty,M365EDU_A5_FACULTY,e97c048c-37a4-45fb-ab50-922fbf07a370,INFORMATION_BARRIERS,c4801e8a-cb58-4c35-aca6-f2dcc106f287,Information Barriers
 Microsoft 365 A5 for Faculty,M365EDU_A5_FACULTY,e97c048c-37a4-45fb-ab50-922fbf07a370,Content_Explorer,d9fa6af4-e046-4c89-9226-729a0786685d,Information Protection and Governance Analytics - Premium
-Microsoft 365 A5 for Faculty,M365EDU_A5_FACULTY,e97c048c-37a4-45fb-ab50-922fbf07a370,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics – Standard
+Microsoft 365 A5 for Faculty,M365EDU_A5_FACULTY,e97c048c-37a4-45fb-ab50-922fbf07a370,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics ? Standard
 Microsoft 365 A5 for Faculty,M365EDU_A5_FACULTY,e97c048c-37a4-45fb-ab50-922fbf07a370,MIP_S_CLP2,efb0351d-3b08-4503-993d-383af8de41e3,Information Protection for Office 365 - Premium
 Microsoft 365 A5 for Faculty,M365EDU_A5_FACULTY,e97c048c-37a4-45fb-ab50-922fbf07a370,MIP_S_CLP1,5136a095-5cf0-4aff-bec3-e84448b38ea5,Information Protection for Office 365 - Standard
 Microsoft 365 A5 for Faculty,M365EDU_A5_FACULTY,e97c048c-37a4-45fb-ab50-922fbf07a370,M365_ADVANCED_AUDITING,2f442157-a11c-46b9-ae5b-6e39ff4e5849,Microsoft 365 Advanced Auditing
@@ -999,7 +1000,7 @@ Microsoft 365 E5,SPE_E5,06ebc4ee-1bb5-47dd-8120-11324bc54e06,EXCHANGE_S_ENTERPRI
 Microsoft 365 E5,SPE_E5,06ebc4ee-1bb5-47dd-8120-11324bc54e06,GRAPH_CONNECTORS_SEARCH_INDEX,a6520331-d7d4-4276-95f5-15c0933bc757,Graph Connectors Search with Index
 Microsoft 365 E5,SPE_E5,06ebc4ee-1bb5-47dd-8120-11324bc54e06,INFORMATION_BARRIERS,c4801e8a-cb58-4c35-aca6-f2dcc106f287,Information Barriers
 Microsoft 365 E5,SPE_E5,06ebc4ee-1bb5-47dd-8120-11324bc54e06,Content_Explorer,d9fa6af4-e046-4c89-9226-729a0786685d,Information Protection and Governance Analytics - Premium
-Microsoft 365 E5,SPE_E5,06ebc4ee-1bb5-47dd-8120-11324bc54e06,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics – Standard
+Microsoft 365 E5,SPE_E5,06ebc4ee-1bb5-47dd-8120-11324bc54e06,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics ? Standard
 Microsoft 365 E5,SPE_E5,06ebc4ee-1bb5-47dd-8120-11324bc54e06,MIP_S_CLP2,efb0351d-3b08-4503-993d-383af8de41e3,Information Protection for Office 365 - Premium
 Microsoft 365 E5,SPE_E5,06ebc4ee-1bb5-47dd-8120-11324bc54e06,MIP_S_CLP1,5136a095-5cf0-4aff-bec3-e84448b38ea5,Information Protection for Office 365 - Standard
 Microsoft 365 E5,SPE_E5,06ebc4ee-1bb5-47dd-8120-11324bc54e06,MYANALYTICS_P2,33c4f319-9bdd-48d6-9c4d-410b750a4a5a,Insights by MyAnalytics
@@ -1132,7 +1133,7 @@ Microsoft 365 E5 Compliance,INFORMATION_PROTECTION_COMPLIANCE,184efa21-98c3-4e5d
 Microsoft 365 E5 Compliance,INFORMATION_PROTECTION_COMPLIANCE,184efa21-98c3-4e5d-95ab-d07053a96e67,MIP_S_Exchange,cd31b152-6326-4d1b-ae1b-997b625182e6,Data Classification in Microsoft 365
 Microsoft 365 E5 Compliance,INFORMATION_PROTECTION_COMPLIANCE,184efa21-98c3-4e5d-95ab-d07053a96e67,INFORMATION_BARRIERS,c4801e8a-cb58-4c35-aca6-f2dcc106f287,Information Barriers
 Microsoft 365 E5 Compliance,INFORMATION_PROTECTION_COMPLIANCE,184efa21-98c3-4e5d-95ab-d07053a96e67,Content_Explorer,d9fa6af4-e046-4c89-9226-729a0786685d,Information Protection and Governance Analytics - Premium
-Microsoft 365 E5 Compliance,INFORMATION_PROTECTION_COMPLIANCE,184efa21-98c3-4e5d-95ab-d07053a96e67,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics – Standard
+Microsoft 365 E5 Compliance,INFORMATION_PROTECTION_COMPLIANCE,184efa21-98c3-4e5d-95ab-d07053a96e67,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics ? Standard
 Microsoft 365 E5 Compliance,INFORMATION_PROTECTION_COMPLIANCE,184efa21-98c3-4e5d-95ab-d07053a96e67,MIP_S_CLP2,efb0351d-3b08-4503-993d-383af8de41e3,Information Protection for Office 365 - Premium
 Microsoft 365 E5 Compliance,INFORMATION_PROTECTION_COMPLIANCE,184efa21-98c3-4e5d-95ab-d07053a96e67,M365_ADVANCED_AUDITING,2f442157-a11c-46b9-ae5b-6e39ff4e5849,Microsoft 365 Advanced Auditing
 Microsoft 365 E5 Compliance,INFORMATION_PROTECTION_COMPLIANCE,184efa21-98c3-4e5d-95ab-d07053a96e67,MICROSOFT_COMMUNICATION_COMPLIANCE,a413a9ff-720c-4822-98ef-2f37c2a21f4c,Microsoft 365 Communication Compliance
@@ -1172,7 +1173,7 @@ Microsoft 365 E5 without Audio Conferencing ,SPE_E5_NOPSTNCONF,cd2925a3-5076-423
 Microsoft 365 E5 without Audio Conferencing ,SPE_E5_NOPSTNCONF,cd2925a3-5076-4233-8931-638a8c94f773,GRAPH_CONNECTORS_SEARCH_INDEX,a6520331-d7d4-4276-95f5-15c0933bc757,Graph Connectors Search with Index
 Microsoft 365 E5 without Audio Conferencing ,SPE_E5_NOPSTNCONF,cd2925a3-5076-4233-8931-638a8c94f773,INFORMATION_BARRIERS,c4801e8a-cb58-4c35-aca6-f2dcc106f287,Information Barriers
 Microsoft 365 E5 without Audio Conferencing ,SPE_E5_NOPSTNCONF,cd2925a3-5076-4233-8931-638a8c94f773,Content_Explorer,d9fa6af4-e046-4c89-9226-729a0786685d,Information Protection and Governance Analytics - Premium
-Microsoft 365 E5 without Audio Conferencing ,SPE_E5_NOPSTNCONF,cd2925a3-5076-4233-8931-638a8c94f773,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics – Standard
+Microsoft 365 E5 without Audio Conferencing ,SPE_E5_NOPSTNCONF,cd2925a3-5076-4233-8931-638a8c94f773,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics ? Standard
 Microsoft 365 E5 without Audio Conferencing ,SPE_E5_NOPSTNCONF,cd2925a3-5076-4233-8931-638a8c94f773,MIP_S_CLP2,efb0351d-3b08-4503-993d-383af8de41e3,Information Protection for Office 365 - Premium
 Microsoft 365 E5 without Audio Conferencing ,SPE_E5_NOPSTNCONF,cd2925a3-5076-4233-8931-638a8c94f773,MIP_S_CLP1,5136a095-5cf0-4aff-bec3-e84448b38ea5,Information Protection for Office 365 - Standard
 Microsoft 365 E5 without Audio Conferencing ,SPE_E5_NOPSTNCONF,cd2925a3-5076-4233-8931-638a8c94f773,MYANALYTICS_P2,33c4f319-9bdd-48d6-9c4d-410b750a4a5a,Insights by MyAnalytics
@@ -1346,7 +1347,7 @@ Microsoft 365 GCC G5,M365_G5_GCC,e2be619b-b125-455f-8660-fb503e431a5d,LOCKBOX_EN
 Microsoft 365 GCC G5,M365_G5_GCC,e2be619b-b125-455f-8660-fb503e431a5d,EXCHANGE_S_ENTERPRISE_GOV,8c3069c0-ccdb-44be-ab77-986203a67df2,Exchange Online (Plan 2) for Government
 Microsoft 365 GCC G5,M365_G5_GCC,e2be619b-b125-455f-8660-fb503e431a5d,INFORMATION_BARRIERS,c4801e8a-cb58-4c35-aca6-f2dcc106f287,Information Barriers
 Microsoft 365 GCC G5,M365_G5_GCC,e2be619b-b125-455f-8660-fb503e431a5d,Content_Explorer,d9fa6af4-e046-4c89-9226-729a0786685d,Information Protection and Governance Analytics - Premium
-Microsoft 365 GCC G5,M365_G5_GCC,e2be619b-b125-455f-8660-fb503e431a5d,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics – Standard
+Microsoft 365 GCC G5,M365_G5_GCC,e2be619b-b125-455f-8660-fb503e431a5d,ContentExplorer_Standard,2b815d45-56e4-4e3a-b65c-66cb9175b560,Information Protection and Governance Analytics ? Standard
 Microsoft 365 GCC G5,M365_G5_GCC,e2be619b-b125-455f-8660-fb503e431a5d,MIP_S_CLP2,efb0351d-3b08-4503-993d-383af8de41e3,Information Protection for Office 365 - Premium
 Microsoft 365 GCC G5,M365_G5_GCC,e2be619b-b125-455f-8660-fb503e431a5d,MIP_S_CLP1,5136a095-5cf0-4aff-bec3-e84448b38ea5,Information Protection for Office 365 - Standard
 Microsoft 365 GCC G5,M365_G5_GCC,e2be619b-b125-455f-8660-fb503e431a5d,M365_ADVANCED_AUDITING,2f442157-a11c-46b9-ae5b-6e39ff4e5849,Microsoft 365 Advanced Auditing

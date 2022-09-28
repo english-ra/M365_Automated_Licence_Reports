@@ -105,13 +105,13 @@ $params = @{
             }
         )
         Attachments = @(
-                                                @{
-                                                                "@odata.type" = "#microsoft.graph.fileAttachment"
-                                                                Name = "M365-Licences_" + $clientName + "_" + $date + ".csv"
-                                                                ContentType = "text/plain"
-                                                                ContentBytes = $base64string
-                                                }
-                                )
+            @{
+                "@odata.type" = "#microsoft.graph.fileAttachment"
+                Name = "M365-Licences_" + $clientName + "_" + $date + ".csv"
+                ContentType = "text/plain"
+                ContentBytes = $base64string
+            }
+        )
     }
     SaveToSentItems = "false"
 }

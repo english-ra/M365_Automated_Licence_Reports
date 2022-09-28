@@ -120,3 +120,5 @@ Send-MgUserMail -UserId "" -BodyParameter $params
  
 # Disconnect from Graph API
 Disconnect-MgGraph 
+
+Exit
